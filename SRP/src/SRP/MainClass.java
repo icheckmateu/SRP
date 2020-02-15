@@ -4,8 +4,8 @@ public class MainClass {
 
     public MainClass() {
         LoginForm form=new LoginForm();
-        form.initControls();
-        form.showControls();
+        form.init();
+        form.display();
     }
 
     public static void main(String[] args) {

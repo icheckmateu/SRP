@@ -7,7 +7,7 @@ import java.sql.Statement;
 
 public class UserDAO {
     /*
-     * 负责数据库的增删改查操作，丰庄路对用户表的全部操作代码
+     * 负责数据库的增删改查操作
      *
      */
     private DBUtil db=null;

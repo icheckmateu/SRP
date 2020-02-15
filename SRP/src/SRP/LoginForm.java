@@ -25,7 +25,7 @@ public class LoginForm extends JFrame  {
     public LoginForm() {
         setVisible(true);
     }
-    public void initControls()//初始化控件
+    public void init()//初始化控件
     {
         btnLogin=new JButton("登录");
         btnClear=new JButton("清空");
@@ -59,7 +59,7 @@ public class LoginForm extends JFrame  {
             }
         });
     }
-    public void showControls()//面板添加控件
+    public void display()//面板添加控件
     {
 
         Container container=this.getContentPane();
